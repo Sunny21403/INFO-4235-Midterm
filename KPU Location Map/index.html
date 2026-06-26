@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPU Surrey Library Distance Finder</title> 
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="page-container">
+
+        <div class="title-card">
+            <h1>KPU Surrey Library Distance Finder</h1>
+            <p class="subtitle">
+                Your current location and the distance to KPU Surrey Library.
+            </p>
+        </div>
+
+        <div class="distance-card">
+            <p id="distance">Detecting your location...</p>
+        </div>
+
+        <div class="map-card">
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
